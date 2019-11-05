@@ -2,8 +2,6 @@
   {
     "id": 1,
     "animal": "wolves",
-    "color": "orange",
-    "background": "grey",
     "l1": "fur",
     "l2": "teeth",
     "l3": "love"
@@ -11,8 +9,6 @@
    {
     "id": 2,
     "animal": "cheetahs",
-    "color": "black",
-    "background": "yellow",
     "l1": "spots",
     "l2": "spikey tongues",
     "l3": "love"
@@ -20,8 +16,6 @@
     {
     "id": 3,
     "animal": "owls",
-    "color": "yellow",
-    "background": "brown",
     "l1": "soft feathers",
     "l2": "big eyes",
     "l3": "love"
