@@ -25,10 +25,23 @@ class Animal extends React.Component
     this.setState({ count: 2});
   };
 
+//here's a desperate attempt to make the styles thing work.
+  // const styles =
+  // {
+  //   textColor: {
+  //   color: {animals[this.state.count].color}
+  // },
+  // headingStyle: {
+  //   fontSize: 100
+  // }
+  // }
+
+
+//Oh my Gosh, it worked...just rewriting it.  What did I change, just removing the quot?
 render() {return (
 <div><button onClick={this.handleWolves}>Wolves</button>
 <button onClick={this.handleCheetahs}>Cheetahs</button><button onClick={this.handleOwls}>Owls</button>
-  <div style={{color:"{animals[this.state.count].color}"}}>
+  <div style={{color:animals[this.state.count].color}}>
     <h2>{animals[this.state.count].animal}</h2>
     <h3>What are {animals[this.state.count].animal} made of?</h3>
     <ol>
@@ -43,4 +56,3 @@ render() {return (
 }
 
 export default Animal;
-
