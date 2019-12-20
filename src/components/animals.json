@@ -4,6 +4,7 @@
     "animal": "wolves",
     "color": "orange",
     "background": "grey",
+    "image": "wolf.png",
     "l1": "fur",
     "l2": "teeth",
     "l3": "love"
@@ -13,6 +14,7 @@
     "animal": "cheetahs",
     "color": "black",
     "background": "yellow",
+    "image": "cheetah.png",
     "l1": "spots",
     "l2": "spikey tongues",
     "l3": "love"
@@ -22,6 +24,7 @@
     "animal": "owls",
     "color": "yellow",
     "background": "brown",
+    "image": "owl.png",
     "l1": "soft feathers",
     "l2": "big eyes",
     "l3": "love"
